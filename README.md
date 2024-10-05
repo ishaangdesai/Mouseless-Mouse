@@ -89,7 +89,7 @@ The following video shows the mouse in action.
  - Need to somehow remove jitter or differentiate between jittering and small hand movements
 ### Scrolling:
  - Already have training data for it, just need to impliment in the current model or train a new one
- - Will make mouse useable in normal situations
+ - Will make mouse more like a real mouse
 ### Usability:
  - Current setup required is very precise, doesn't work without it
  - Make it less setup dependent so it can be practically used in different situations
