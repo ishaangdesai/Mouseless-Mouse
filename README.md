@@ -70,7 +70,7 @@ Moving around normally:
 
 ## Dataset
 To identify landmarks, a pretrained model from mediapipe is used, no datasets are used.
-<br/>To identify gestures, a custom data set is created for each gestures using trainingDataCollection.py
+<br/>To identify gestures, a custom data set is created for each gesture using trainingDataCollection.py
 
 ## Model Training and Evaluation
 <img width="374" alt="image" src="https://github.com/user-attachments/assets/5db523e6-c0aa-4c6e-9c2f-fbc938391ed8">
