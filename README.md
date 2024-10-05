@@ -50,7 +50,7 @@ Main ones:
  - cv2
  - pandas
 3. Set up the camera so it looks down at a flat, plain colored surface. It should be around 2 feet off the surface
-![image](https://github.com/user-attachments/assets/7a3efed7-a2e7-4d0d-ad2a-49ec508a7eff)
+/n ![image](https://github.com/user-attachments/assets/7a3efed7-a2e7-4d0d-ad2a-49ec508a7eff)
 4. Run handTrackingTesting.py, and make sure the code properly tracks your hand
 5. Run mouselessMousepy to use the mouse
 
