@@ -43,7 +43,7 @@ This project implements Mediapipe's Hand Landmarks Detection model to track hand
 ## Installation
 1. Clone this repository
 2. Install all dependencies
-Main ones:
+<br/>Main ones:
  - tensorflow
  - pyautogui
  - mediapipe
