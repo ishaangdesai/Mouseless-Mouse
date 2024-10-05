@@ -1,4 +1,6 @@
 # Mouseless-Mouse
+## Motivation
+This project was inspired by a thought I had to somehow recreate the functionality of a mouse without a physical mouse, as it was a hassle to have to carry an adaptor and a physical mouse everywhere to connect to a Macbook Air, which only had 2 USB-C ports. 
 
 ## Overview
 This project implements Mediapipe's Hand Landmarks Detection model to track hand movements using a livestream from a webcam. It then extracts the x, y coordinates of 21 hand landmarks, then uses this data with a custom trained convolutional neural network to:
@@ -8,9 +10,8 @@ This project implements Mediapipe's Hand Landmarks Detection model to track hand
 
 ## Features
 - Real-time hand tracking: Detects hand landmarks using Mediapipe and captures x, y coordinates.
-- Custom gesture recording: Save hand landmark data to CSV with a key press, for use in training or analysis.
 - Mouse control: Use convolutional neural network with hand gestures to control mouse movements and clicks.
-- Gesture mapping: You can customize which hand movements trigger specific which mouse actions by collecting new data and retraining the model.
+- Custom gesture mapping: You can customize which hand movements trigger specific which mouse actions by collecting new data and retraining the model.
 
 ## Project Structure
 ### CSV Files
