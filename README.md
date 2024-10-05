@@ -8,7 +8,7 @@ This project implements Mediapipe's Hand Landmarks Detection model to track hand
 
 ## Features
 - Real-time hand tracking: Detects hand landmarks using Mediapipe and captures x, y coordinates.
-- Data recording: Save hand landmark data to CSV with a key press, for use in training or analysis.
+- Custom gesture recording: Save hand landmark data to CSV with a key press, for use in training or analysis.
 - Mouse control: Use convolutional neural network with hand gestures to control mouse movements and clicks.
 - Gesture mapping: You can customize which hand movements trigger specific which mouse actions by collecting new data and retraining the model.
 
