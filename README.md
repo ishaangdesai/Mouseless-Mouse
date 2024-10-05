@@ -57,16 +57,16 @@ Main ones:
 ## Usage
 As of now, this code is used to attempt to replace a traditional mouse. Using the following gestures, different actions will be performed.
 Left Click:
-![image](https://github.com/user-attachments/assets/5511ffee-96b0-416f-9bce-295de2ad6e04)
-push thumb under palm
+/n ![image](https://github.com/user-attachments/assets/5511ffee-96b0-416f-9bce-295de2ad6e04)
+/n push thumb under palm
 
 Right Click:
-![image](https://github.com/user-attachments/assets/56782e64-c683-4f09-b4a5-086ce580a483)
-bend pointer finger down
+/n ![image](https://github.com/user-attachments/assets/56782e64-c683-4f09-b4a5-086ce580a483)
+/n bend pointer finger down
 
 Moving around normally:
-![image](https://github.com/user-attachments/assets/cf3481e5-da3a-4a6c-9374-de8aedf182ff)
-keep hand relaxed
+/n ![image](https://github.com/user-attachments/assets/cf3481e5-da3a-4a6c-9374-de8aedf182ff)
+/n keep hand relaxed
 
 ## Dataset
 To identify landmarks, a pretrained model from mediapipe is used, no datasets are used.
@@ -74,9 +74,9 @@ To identify gestures, a custom data set is created for each gestures using train
 
 ## Model Training and Evaluation
 <img width="374" alt="image" src="https://github.com/user-attachments/assets/5db523e6-c0aa-4c6e-9c2f-fbc938391ed8">
-I chose to use a CNN model since they're good at identifying patterns in images, and although I'm not using the full image, it would still be good for identifying relationships between landmarks.
+/n I chose to use a CNN model since they're good at identifying patterns in images, and although I'm not using the full image, it would still be good for identifying relationships between landmarks.
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/cd0ebbc4-fb0f-4965-87f8-8bc8abbc2a7c">
-After 100 training epochs, it was able to identify accurately 100% of the time on a 30-70 test train split. 100% accuracy is essential for a mouse, because it would be extremely bad if it clicked somewhere at the wrong time.
+/n After 100 training epochs, it was able to identify accurately 100% of the time on a 30-70 test train split. 100% accuracy is essential for a mouse, because it would be extremely bad if it clicked somewhere at the wrong time.
 
 ## Results
 The following video shows the mouse in action.
