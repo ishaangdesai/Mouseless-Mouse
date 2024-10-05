@@ -50,23 +50,23 @@ Main ones:
  - cv2
  - pandas
 3. Set up the camera so it looks down at a flat, plain colored surface. It should be around 2 feet off the surface
-/n ![image](https://github.com/user-attachments/assets/7a3efed7-a2e7-4d0d-ad2a-49ec508a7eff)
+<br/>  ![image](https://github.com/user-attachments/assets/7a3efed7-a2e7-4d0d-ad2a-49ec508a7eff)
 4. Run handTrackingTesting.py, and make sure the code properly tracks your hand
 5. Run mouselessMousepy to use the mouse
 
 ## Usage
 As of now, this code is used to attempt to replace a traditional mouse. Using the following gestures, different actions will be performed.
 Left Click:
-/n ![image](https://github.com/user-attachments/assets/5511ffee-96b0-416f-9bce-295de2ad6e04)
-/n push thumb under palm
+<br/> ![image](https://github.com/user-attachments/assets/5511ffee-96b0-416f-9bce-295de2ad6e04)
+<br/> push thumb under palm
 
 Right Click:
-/n ![image](https://github.com/user-attachments/assets/56782e64-c683-4f09-b4a5-086ce580a483)
-/n bend pointer finger down
+<br/> ![image](https://github.com/user-attachments/assets/56782e64-c683-4f09-b4a5-086ce580a483)
+<br/> bend pointer finger down
 
 Moving around normally:
-/n ![image](https://github.com/user-attachments/assets/cf3481e5-da3a-4a6c-9374-de8aedf182ff)
-/n keep hand relaxed
+<br/> ![image](https://github.com/user-attachments/assets/cf3481e5-da3a-4a6c-9374-de8aedf182ff)
+<br/> keep hand relaxed
 
 ## Dataset
 To identify landmarks, a pretrained model from mediapipe is used, no datasets are used.
@@ -74,9 +74,9 @@ To identify gestures, a custom data set is created for each gestures using train
 
 ## Model Training and Evaluation
 <img width="374" alt="image" src="https://github.com/user-attachments/assets/5db523e6-c0aa-4c6e-9c2f-fbc938391ed8">
-/n I chose to use a CNN model since they're good at identifying patterns in images, and although I'm not using the full image, it would still be good for identifying relationships between landmarks.
+<br/> I chose to use a CNN model since they're good at identifying patterns in images, and although I'm not using the full image, it would still be good for identifying relationships between landmarks.
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/cd0ebbc4-fb0f-4965-87f8-8bc8abbc2a7c">
-/n After 100 training epochs, it was able to identify accurately 100% of the time on a 30-70 test train split. 100% accuracy is essential for a mouse, because it would be extremely bad if it clicked somewhere at the wrong time.
+<br/> After 100 training epochs, it was able to identify accurately 100% of the time on a 30-70 test train split. 100% accuracy is essential for a mouse, because it would be extremely bad if it clicked somewhere at the wrong time.
 
 ## Results
 The following video shows the mouse in action.
