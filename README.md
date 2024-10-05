@@ -18,27 +18,27 @@ This project implements Mediapipe's Hand Landmarks Detection model to track hand
 - leftClickTrainingData.csv
 - rightClickTrainingData.csv
 - scrollingTrainingData.csv
-All CSV files are created by trainingDataCollection.py, which stores hand landmark data in them based on which key is pressed
+<br/>All CSV files are created by trainingDataCollection.py, which stores hand landmark data in them based on which key is pressed
 
 ### Models
 - clickIdentification.h5
 - hand_landmarker.task
-clickIdentification.h5 is the convolutional neural network made to input the CSV files and detect which gesture is happening
+<br/>clickIdentification.h5 is the convolutional neural network made to input the CSV files and detect which gesture is happening
 <br/>hand_landmarker.task is mediapipe's model for finding hand landmarks
 
 ### Model Training
 - clickModelTraining.py
 - trainingDataCollection.py
-clickModelTraining.py trains a Convolutional Neural Network to convert landmark inputs to gesture outputs.
+<br/>clickModelTraining.py trains a Convolutional Neural Network to convert landmark inputs to gesture outputs.
 <br/> trainingDataCollection.py uses keyboard inputs to save hand landmark data in their respective CSV files
 
 ### Testing
 - handTrackingTesting.py
-handTrackingTesting.py is to test the camera to see if it can detect the hand from it's current position
+<br/>handTrackingTesting.py is to test the camera to see if it can detect the hand from it's current position
 
 ### Implimentation
  - mouselessMouse.py
-mouselessMouse.py is the code that actually controls the mouse
+<br/>mouselessMouse.py is the code that actually controls the mouse
 
 ## Installation
 1. Clone this repository
